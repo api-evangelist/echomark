@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.echomark.com/product/api
+docs: https://support.echomark.com/hc/en-us/sections/48912786989332-EchoMark-API
+summary:
+  types:
+  - apiClientCredentials
+  self_service: true
+schemes:
+- name: EchoMarkAPIClient
+  type: apiClientCredentials
+  description: >-
+    API access is authenticated with API client credentials. Per the EchoMark API
+    product page, administrators "Create API clients in the EchoMark web application.
+    No request form, no manual approval required." The exact wire format (header name /
+    bearer vs. key) is documented in the support portal API reference and is not
+    published on the public marketing surface, so it is not asserted here.
+  sources:
+  - https://www.echomark.com/product/api
+notes: >-
+  Derived from public marketing docs only (no public OpenAPI). API clients are created
+  self-service in the web app at https://app.echomark.com. Upgrade with the support-portal
+  API reference when accessible.
