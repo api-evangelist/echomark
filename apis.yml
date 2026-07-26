@@ -1,8 +1,15 @@
 aid: echomark
 name: EchoMark
-description: 'EchoMark is a company surfaced as a portfolio company of craft-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  EchoMark is an information-security company that embeds unique, invisible forensic
+  watermarks — different for every recipient — into emails, documents, images, screen
+  captures, and file-share links, so that when internal information leaks the exposed
+  copy can be traced back to the individual it was released to. Products include EchoMark
+  Screen (screenshot/photo watermarking), watermarked email communications with AI
+  rephrasing, secure File Share, and Chroma (invisible) and Luma (print-resistant) image
+  watermarking. The EchoMark API lets organizations embed forensic watermarking and
+  automate leak detection across their own applications and workflows, with API clients
+  created self-service in the EchoMark web application.
 url: https://raw.githubusercontent.com/api-evangelist/echomark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +17,41 @@ x-backed-by:
 - craft-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://assets-global.website-files.com/64f5db58df7028173fc605ca/6508c74e004a4f9ab6f9de3a_Announcing%20EchoMark.jpg
 tags:
 - Company
 - Security
-apis: []
+- Information Security
+- Forensic Watermarking
+- Insider Threat
+- Data Loss Prevention
+- Leak Detection
+apis:
+- name: EchoMark API
+  description: >-
+    Embed forensic watermarking into applications, internal tools, and custom workflows,
+    and programmatically retrieve forensic results to identify leaked artifacts and
+    attribute which recipient's marked copy was exposed.
+  humanURL: https://www.echomark.com/product/api
+  baseURL: https://api.echomark.com
+  properties:
+  - type: Authentication
+    url: authentication/echomark-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +60,44 @@ maintainers:
 common:
 - type: Website
   url: https://echomark.com
+- type: DeveloperPortal
+  url: https://support.echomark.com
+- type: Documentation
+  url: https://support.echomark.com/hc/en-us/sections/48912786989332-EchoMark-API
+- type: APIReference
+  url: https://www.echomark.com/product/api
+- type: Support
+  url: https://support.echomark.com
+- type: Blog
+  url: https://www.echomark.com/blog
+- type: Pricing
+  url: https://www.echomark.com/pricing
+- type: SignUp
+  url: https://www.echomark.com/sign-up
+- type: Login
+  url: https://app.echomark.com/login
+- type: TermsOfService
+  url: https://www.echomark.com/terms-of-services
+- type: PrivacyPolicy
+  url: https://www.echomark.com/privacy-statement
+- type: StatusPage
+  url: https://echomark.statuspage.io/
+- type: Security
+  url: https://www.echomark.com/security
+- type: Compliance
+  url: https://www.echomark.com/security
+- type: Authentication
+  url: authentication/echomark-authentication.yml
+- type: Conformance
+  url: conformance/echomark-conformance.yml
+- type: Lifecycle
+  url: lifecycle/echomark-lifecycle.yml
+- type: DomainSecurity
+  url: security/echomark-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/echomark-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

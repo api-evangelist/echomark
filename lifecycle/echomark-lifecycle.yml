@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.echomark.com/security
+status_page: https://echomark.statuspage.io/
+versioning:
+  scheme: unknown
+  docs: https://support.echomark.com/hc/en-us/sections/48912786989332-EchoMark-API
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
+notes: >-
+  Public status page hosted at Atlassian Statuspage (echomark.statuspage.io, HTTP 200).
+  No public versioning or deprecation policy located; API reference lives behind the
+  EchoMark support portal.

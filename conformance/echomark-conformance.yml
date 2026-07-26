@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.echomark.com/security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: 'EchoMark has completed SOC 2 Type II certification (audited with Vanta), per https://www.echomark.com/security'
+- id: penetration-testing
+  conforms: true
+  evidence: 'EchoMark regularly employs third-party penetration testing services and continuous vulnerability scanning, per https://www.echomark.com/security'
+- id: iso-27001
+  conforms: false
+- id: hipaa
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: fedramp
+  conforms: false
