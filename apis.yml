@@ -29,7 +29,7 @@ accessModel:
   - authentication
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://assets-global.website-files.com/64f5db58df7028173fc605ca/6508c74e004a4f9ab6f9de3a_Announcing%20EchoMark.jpg
