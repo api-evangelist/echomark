@@ -64,6 +64,96 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EchoMark is a company surfaced as a portfolio company of craft-ventures and added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment pipeline.
+EchoMark is an information-security company that embeds unique, invisible forensic watermarks — different for every recipient — into emails, documents, images, screen captures, and file-share links, so that when internal information leaks the exposed copy can be traced back to the individual it was released to. Products include EchoMark Screen (screenshot/photo watermarking), watermarked email communications with AI rephrasing, secure File Share, and Chroma (invisible) and Luma (print-resistant) image watermarking. The EchoMark API lets organizations embed forensic watermarking and automate leak detection across their own applications and workflows, with API clients created self-service in the EchoMark web application.
 
-Backed by: craft-ventures — https://echomark.com
+**Areas:** Company · Security · Information Security · Forensic Watermarking · Insider Threat · Data Loss Prevention · Leak Detection
+
+## EchoMark on APIs.io
+
+Everything profiled for EchoMark is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/echomark/](https://apis.io/providers/echomark/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [EchoMark API](https://apis.io/apis/echomark/echomark-api/) — Embed forensic watermarking into applications, internal tools, and custom workflows, and programmatically retrieve forensic results to identify leaked…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Echomark Authentication](https://apis.io/security/echomark/echomark-authentication/)
+- [Echomark Domain Security](https://apis.io/security/echomark/echomark-domain-security/)
+- [Echomark Vulnerability Disclosure](https://apis.io/security/echomark/echomark-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://echomark.com)
+- [Documentation](https://support.echomark.com/hc/en-us/sections/48912786989332-EchoMark-API)
+- [API reference](https://www.echomark.com/product/api)
+- [Pricing](https://www.echomark.com/pricing)
+- [Sign up](https://www.echomark.com/sign-up)
+- [Support](https://support.echomark.com)
+- [Blog](https://www.echomark.com/blog)
+- [Security](https://www.echomark.com/security)
+- [Compliance](https://www.echomark.com/security)
+- [Terms of service](https://www.echomark.com/terms-of-services)
+- [Privacy policy](https://www.echomark.com/privacy-statement)
+- [Status](https://echomark.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 34.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 52.6 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/echomark/](https://apis.io/providers/echomark/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EchoMark: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/echomark/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
